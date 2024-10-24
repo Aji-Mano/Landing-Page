@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.nav-logo {
+    height: 60px;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: grid;
+    margin: 5px 0px 5px 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 2), 0 3px 10px 0 rgba(0, 0, 0, 19);
+    grid-template-columns: auto auto;
+
+
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.nav-options>div {
+    align-content: center;
+    cursor: pointer;
+}
+
+
+.dropdown .dropdown-head{
+   
+    border: none;
+    color: rgb(5, 4, 4);
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 1000;
+ }
+ .dropdown .content{
+     background-color: rgb(127, 147, 147);
+     position: absolute;
+     display: none;
+     min-width: 100px;
+    
+ }
+ 
+ .dropdown a{
+     text-decoration: none;
+     display: block;
+     color: white;
+     padding: 10px;
+ 
+ }
+ 
+ .dropdown:hover .content{
+     display: block;
+ }
+ 
+ .dropdown a:hover{
+     background-color:rgb(66, 76, 76)  ;
+ }
+
+
+
+
+
+
+
+.service {
+    margin-top: 50px;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.service-head>p {
+    font-style: italic;
+    color: brown;
+}
+
+.service-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 75px;
+}
+
+.card {
+    height: 400px;
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-img {
+    height: 150px;
+    width: 150px;
+    margin-left: 55px;
+    color:rgb(0, 139, 35);
+     
+}
+
+.card-content>h2 {
+    text-align: center;
+}
+
+.card-content>p {
+    color: brown;
+    font-style: italic;
+    text-align: justify;
+}
+
+
+@media screen and (max-width:500px) {
+    .banner-img {
+        height: 300px;
+    }
+}
+
+
